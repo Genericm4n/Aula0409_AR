@@ -744,7 +744,7 @@ GameObject:
   - component: {fileID: 845719445}
   m_Layer: 0
   m_Name: ARCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1129,6 +1129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf478866a0e3be4cb51b0a55e1dd116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distance: 3
+  vel: 0.015
+  rvel: 2
 --- !u!1001 &1419906029
 Prefab:
   m_ObjectHideFlags: 0
